@@ -36,6 +36,11 @@ io.on('connection', function(socket) {
   });
 });
 
+const io = socketIo(server);
+const UsersService = require('./UsersService');
+
+const userService = new UsersService();
+
 server.listen(3000, function(){
   console.log('listening on *:3000');
 });
