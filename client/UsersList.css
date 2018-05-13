@@ -1,7 +1,7 @@
 .Users {
     display: flex;
     flex: 1;
-    width: 25vw;
+    width: 25%;
     justify-content: flex-start;
     flex-direction: column;
     border-right: 1px solid #ccc;
@@ -10,7 +10,8 @@
 .UsersOnline {
     padding: 20px;
     text-align: center;
-    background: #ccc;
+    background: #FFFFFF;
+    color: #00b894;
 }
 
 .UsersList {
@@ -23,4 +24,5 @@
     border-bottom: 1px solid #ccc;
     padding: 20px;
     margin: 0 0 0 20px;
+    color: #00b894;
 }

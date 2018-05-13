@@ -12,7 +12,7 @@ const UsersList = props => (
         props.users.map((user) => {
           return (
             <li key={user.id} className={styles.UserItem}>
-              {user.name}
+              <i className="far fa-smile"></i> {user.name}
             </li>
           );
         })
